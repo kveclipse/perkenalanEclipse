@@ -1,0 +1,63 @@
+.admin-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:85vh;
+}
+
+.admin-card{
+
+    width:90%;
+
+    max-width:500px;
+
+    padding:50px;
+
+    border-radius:30px;
+
+    text-align:center;
+
+    background:
+    rgba(255,255,255,0.2);
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:
+    0 8px 30px rgba(0,0,0,0.15);
+}
+
+.admin-card h1{
+
+    margin-bottom:30px;
+}
+
+.admin-card input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+    border:none;
+
+    border-radius:15px;
+
+    outline:none;
+
+    background:
+    rgba(255,255,255,0.5);
+}
+
+#loginStatus{
+
+    margin-top:20px;
+
+    font-weight:bold;
+
+    color:#b8860b;
+}
