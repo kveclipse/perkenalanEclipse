@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
 
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+
+    <title>Admin Panel</title>
+
+    <link rel="stylesheet"
+    href="css/style.css">
+
+    <link rel="stylesheet"
+    href="css/admin.css">
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav>
+
+        <div class="logo">
+            GoldenSilver
+        </div>
+
+        <div class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="game.html">
+                Game
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+        </div>
+
+    </nav>
+
+    <!-- LOGIN -->
+
+    <section class="admin-container">
+
+        <div class="admin-card">
+
+            <h1>
+                Admin Login
+            </h1>
+
+            <input
+            type="text"
+            id="username"
+            placeholder="Username">
+
+            <input
+            type="password"
+            id="password"
+            placeholder="Password">
+
+            <button onclick="loginAdmin()">
+                LOGIN
+            </button>
+
+            <p id="loginStatus"></p>
+
+        </div>
+
+    </section>
+
+    <script src="js/admin.js"></script>
+
+</body>
+</html>
