@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
 
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Mini Game</title>
+
+    <link rel="stylesheet"
+    href="css/style.css">
+
+    <link rel="stylesheet"
+    href="css/game.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav>
+
+        <div class="logo">
+            GoldenSilver
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="game.html">Game</a>
+            <a href="#">Gallery</a>
+            <a href="#">Leaderboard</a>
+        </div>
+
+    </nav>
+
+    <!-- GAME -->
+
+    <section class="game-container">
+
+        <div class="game-card">
+
+            <h1>
+                Mini Click Game
+            </h1>
+
+            <h2 id="playerName">
+                Guest
+            </h2>
+
+            <div class="score-box">
+
+                <h2>
+                    Score
+                </h2>
+
+                <h1 id="score">
+                    0
+                </h1>
+
+            </div>
+
+            <img
+            src="img/character.png"
+            id="character"
+            class="character">
+
+            <br>
+
+            <button onclick="resetGame()">
+                RESET SCORE
+            </button>
+
+        </div>
+
+    </section>
+
+    <script src="js/game.js"></script>
+
+</body>
+</html>
