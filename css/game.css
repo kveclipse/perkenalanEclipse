@@ -1,0 +1,61 @@
+.game-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:85vh;
+}
+
+.game-card{
+    width:90%;
+    max-width:700px;
+    padding:50px;
+    border-radius:30px;
+    text-align:center;
+    background:
+    rgba(255,255,255,0.2);
+    backdrop-filter:blur(15px);
+    box-shadow:
+    0 8px 30px rgba(0,0,0,0.15);
+}
+
+.score-box{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+.score-box h1{
+    font-size:60px;
+    color:#b8860b;
+}
+
+.character{
+    width:250px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+.character:hover{
+    transform:scale(1.05);
+}
+
+.hit{
+    animation:shake 0.2s;
+}
+
+@keyframes shake{
+    0%{
+        transform:translateX(0);
+    }
+    25%{
+        transform:translateX(-5px);
+    }
+    50%{
+        transform:translateX(5px);
+    }
+    75%{
+        transform:translateX(-5px);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
