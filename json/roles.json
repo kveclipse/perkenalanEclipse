@@ -1,0 +1,31 @@
+[
+  {
+    "role": "Traveler",
+    "minScore": 0,
+    "color": "#d4d4d8"
+  },
+
+  {
+    "role": "Explorer",
+    "minScore": 100,
+    "color": "#facc15"
+  },
+
+  {
+    "role": "Guardian",
+    "minScore": 500,
+    "color": "#eab308"
+  },
+
+  {
+    "role": "Golden Hero",
+    "minScore": 1000,
+    "color": "#b8860b"
+  },
+
+  {
+    "role": "Silver Legend",
+    "minScore": 2500,
+    "color": "#c0c0c0"
+  }
+]
