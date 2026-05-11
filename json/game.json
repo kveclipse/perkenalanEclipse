@@ -1,0 +1,25 @@
+{
+  "gameName":
+  "Golden Clicker",
+
+  "version":
+  "1.0",
+
+  "clickPoint":
+  1,
+
+  "comboMultiplier":
+  2,
+
+  "maxCombo":
+  10,
+
+  "maxScore":
+  999999,
+
+  "timer":
+  30,
+
+  "resetScore":
+  0
+}
