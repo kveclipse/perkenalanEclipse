@@ -1,0 +1,111 @@
+.leaderboard-header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.leaderboard-header h1{
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+.leaderboard-header p{
+    color:#444;
+}
+
+.leaderboard-container{
+    width:90%;
+    max-width:900px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.leaderboard-card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px;
+    border-radius:25px;
+    background:
+    rgba(255,255,255,0.2);
+    backdrop-filter:blur(15px);
+    box-shadow:
+    0 8px 30px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.leaderboard-card:hover{
+    transform:scale(1.02);
+}
+
+.top1{
+    border:
+    3px solid gold;
+}
+
+.top2{
+    border:
+    3px solid silver;
+}
+
+.top3{
+    border:
+    3px solid #cd7f32;
+}
+
+.rank{
+    font-size:40px;
+    font-weight:bold;
+    color:#b8860b;
+}
+
+.player-info h2{
+    margin-bottom:5px;
+}
+
+.player-info p{
+    color:#666;
+}
+
+
+.score{
+
+    font-size:35px;
+
+    font-weight:bold;
+
+    color:#b8860b;
+}
+
+
+.your-rank{
+    padding:60px 20px;
+}
+
+.your-rank-card{
+    width:90%;
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+    padding:40px;
+    border-radius:30px;
+    background:
+    rgba(255,255,255,0.2);
+    backdrop-filter:blur(15px);
+    box-shadow:
+    0 8px 30px rgba(0,0,0,0.15);
+}
+
+.your-rank-card h1{
+    margin-top:10px;
+    color:#b8860b;
+}
+
+.your-score{
+    margin-top:30px;
+}
+
+.your-score h1{
+    font-size:60px;
+}
