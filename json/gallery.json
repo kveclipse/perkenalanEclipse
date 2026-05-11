@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Golden Sky",
+    "creator": "Guest_221",
+    "role": "Explorer",
+    "image":
+    "img/gallery/fanart1.jpg"
+  },
+
+  {
+    "id": 2,
+    "title": "Silver Night",
+    "creator": "Guest_912",
+    "role": "Guardian",
+    "image":
+    "img/gallery/fanart2.jpg"
+  },
+
+  {
+    "id": 3,
+    "title": "Fantasy Realm",
+    "creator": "Guest_155",
+    "role": "Golden Hero",
+    "image":
+    "img/gallery/fanart3.jpg"
+  }
+]
