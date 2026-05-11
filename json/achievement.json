@@ -1,0 +1,31 @@
+[
+  {
+    "name": "First Click",
+
+    "description":
+    "Melakukan klik pertama",
+
+    "reward":
+    10
+  },
+
+  {
+    "name": "Score Hunter",
+
+    "description":
+    "Mencapai score 1000",
+
+    "reward":
+    100
+  },
+
+  {
+    "name": "Golden Master",
+
+    "description":
+    "Mencapai score 5000",
+
+    "reward":
+    500
+  }
+]
