@@ -1,0 +1,15 @@
+{
+  "username": "admin",
+
+  "password": "goldsilver2026",
+
+  "role": "owner",
+
+  "access": [
+    "dashboard",
+    "gallery",
+    "leaderboard",
+    "settings",
+    "notification"
+  ]
+}
